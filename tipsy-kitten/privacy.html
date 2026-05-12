@@ -20,7 +20,7 @@
 
 <main class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="updated">Tipsy Kitten for Android (<code>com.tipsykitten.app</code>) &middot; Effective: 2026-05-11</p>
+  <p class="updated">Tipsy Kitten for Android (<code>com.tipsykitten.app</code>) &middot; Effective: 2026-05-12</p>
 
   <p>This policy describes what data the Tipsy Kitten Android app ("Tipsy Kitten", "the app", "we") collects, how it is used, and the choices you have. The app is published by Meow Media Lab (a sole-proprietor developer based in the United States).</p>
 
@@ -30,6 +30,7 @@
     <li>If you sign in with Google, we also store your email address so your data can sync across devices.</li>
     <li>We collect crash reports (via Firebase Crashlytics) to fix bugs. You can turn this off in Settings &rarr; Privacy &amp; Data.</li>
     <li>If you purchase a premium subscription or one-time unlock, the transaction is handled by Google Play Billing &mdash; we never see your payment details.</li>
+    <li>If you publish a recipe to the community, the recipe and a byline (your chosen display name, or a short fragment of your random user ID if you haven't set one) are shown publicly to other Tipsy Kitten users.</li>
     <li>We do not sell your data. We do not use it for advertising. We do not share it with third parties except the service providers listed below.</li>
     <li>You can delete your account and all associated data from inside the app at any time. See <a href="/tipsy-kitten/delete-account.html">Delete Account &amp; Data</a>.</li>
   </ul>
@@ -59,8 +60,14 @@
         <td>Optional &mdash; you can use the app without saving anything</td>
       </tr>
       <tr>
-        <td>Recipes you choose to publish to the community</td>
-        <td>Show your shared recipe to other Tipsy Kitten users</td>
+        <td>A display name you choose (free-text, optional)</td>
+        <td>Used as the public byline on any recipes you publish to the community</td>
+        <td>Only if you set one in Settings</td>
+        <td>Optional</td>
+      </tr>
+      <tr>
+        <td>Recipes you choose to publish to the community (publicly visible)</td>
+        <td>Show your shared recipe, with a byline, to other Tipsy Kitten users</td>
         <td>Only when you tap "Share with community" on a recipe</td>
         <td>Optional</td>
       </tr>
@@ -93,7 +100,9 @@
   <p>We do not sell or rent your data, and we do not share it with advertisers, data brokers, or analytics resellers.</p>
 
   <h2>Community recipes</h2>
-  <p>If you publish a recipe to the community, its contents (title, ingredients, instructions, your chosen display name if any) become visible to other Tipsy Kitten users. Don't publish anything you wouldn't want to be public. You can delete a published recipe at any time from the app; once deleted it stops being shown to other users.</p>
+  <p>If you publish a recipe to the community, its contents (title, ingredients, instructions) become visible to every other Tipsy Kitten user, along with a byline crediting you. The byline uses the display name you set in Settings; if you haven't set one, it falls back to the word "user" followed by the first eight characters of your random user identifier (e.g. <code>user a1b2c3d4</code>).</p>
+  <p>The byline is captured at the moment you publish &mdash; changing your display name later in Settings won't update bylines on recipes you've already shared. To change a byline on something you've published, delete the published recipe and publish a fresh copy.</p>
+  <p>Don't publish anything you wouldn't want to be public. You can delete a published recipe at any time from the app; once deleted it stops being shown to other users.</p>
 
   <h2>Data retention</h2>
   <ul>
