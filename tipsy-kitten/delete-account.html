@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tipsy Kitten &mdash; Delete Account &amp; Data</title>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <a class="brand" href="/">Meow Media Lab</a>
+    <nav>
+      <a href="/tipsy-kitten/">Tipsy Kitten</a>
+      <a href="/tipsy-kitten/privacy.html">Privacy</a>
+      <a href="/tipsy-kitten/support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Delete your account &amp; data</h1>
+  <p class="updated">Tipsy Kitten for Android (<code>com.tipsykitten.app</code>)</p>
+
+  <p>You can delete your Tipsy Kitten account and everything associated with it at any time. There are two ways to do this: directly inside the app (fastest), or by emailing us.</p>
+
+  <h2>Option 1 &mdash; From inside the app (recommended)</h2>
+  <ol>
+    <li>Open Tipsy Kitten on your Android device.</li>
+    <li>Tap the <strong>Settings</strong> icon.</li>
+    <li>Scroll to the <strong>Account</strong> section.</li>
+    <li>Tap <strong>"Delete my account &amp; data"</strong>.</li>
+    <li>Confirm when prompted. Deletion is immediate and cannot be undone.</li>
+  </ol>
+
+  <h2>Option 2 &mdash; By email</h2>
+  <p>If you can't open the app (e.g. you uninstalled it, or it's not signing in), email us and we'll delete your account for you:</p>
+  <div class="card">
+    <p style="margin:0">
+      <strong>To:</strong> <a href="mailto:meowmedialab@gmail.com?subject=Tipsy%20Kitten%20account%20deletion">meowmedialab@gmail.com</a><br>
+      <strong>Subject:</strong> Tipsy Kitten account deletion<br>
+      <strong>From:</strong> the request <strong>must be sent from the same Google email address</strong> that is signed into the Tipsy Kitten account you want deleted. This is how we verify you own the account &mdash; we won't act on requests sent from any other address.<br>
+      <strong>Include:</strong> the approximate date you first installed the app (helps us locate the right account).
+    </p>
+  </div>
+  <p>We'll confirm deletion within <strong>7 days</strong>.</p>
+  <p class="muted">If you never signed in with Google and used Tipsy Kitten anonymously, there is no email tied to your account, so we have no way to verify a deletion request by email. In that case please use Option 1 (in-app deletion) instead.</p>
+
+  <h2>What gets deleted</h2>
+  <p>When you delete your account, we permanently remove:</p>
+  <ul>
+    <li>Your account record (your internal user ID and, if applicable, the email address from Google sign-in).</li>
+    <li>Your saved bar / ingredient list.</li>
+    <li>Your ratings, favorites, and notes.</li>
+    <li>Your custom recipes and edits.</li>
+  </ul>
+
+  <h2>What is kept, and why</h2>
+  <ul>
+    <li><strong>Crash logs</strong> (if you had crash reporting enabled) are not tied to your account in a way that lets us look them up by user, so they cannot be selectively deleted. They are automatically purged by Firebase Crashlytics within <strong>90 days</strong>.</li>
+    <li><strong>Purchase / subscription records</strong> are held by Google Play, not by us. We may keep a non-identifying record that a purchase occurred (without your account ID) for tax and accounting purposes for as long as required by law (typically up to 7 years). To cancel an active subscription, use the Google Play Store app &rarr; your profile &rarr; <strong>Payments &amp; subscriptions</strong>. To request a refund, use the Play Store's standard refund flow.</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <p>Email <a href="mailto:meowmedialab@gmail.com">meowmedialab@gmail.com</a> with any questions about deletion. See also the <a href="/tipsy-kitten/privacy.html">Privacy Policy</a>.</p>
+</main>
+
+<footer class="site">
+  &copy; <span id="y"></span> Meow Media Lab &middot; <a href="/">Home</a>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</footer>
+</body>
+</html>
